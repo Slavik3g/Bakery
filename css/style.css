@@ -78,7 +78,7 @@ html{
     align-self: center;
 }
 .header__list{
-
+    display: flex;
 }
 
 .header__item{
@@ -290,9 +290,7 @@ html{
 
 .menu__positions{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-
 
 }
 
@@ -306,7 +304,8 @@ html{
 
 .menu__positions_column{
     flex: 1;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+
 }
 
 .menu__positions_column_title{
@@ -323,6 +322,10 @@ html{
     font-size: 27px;
     line-height: 33px;
     color: #000000;
+}
+
+.menu__positions_column_second:last-child{
+    margin-top: 60px;
 }
 /*.menu__wrap{*/
 /*    padding-top: 170px;*/
