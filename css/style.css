@@ -164,33 +164,49 @@ html{
 .history{
     width: 100%;
     background: #F3E6D5;
-
 }
 
-.hist__wrapper{
+/*.hist__wrapper{*/
+/*    padding-top: 170px;*/
+/*    margin: 0 auto;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.hist_items{
     padding-top: 170px;
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
 .history__text{
-    margin-top: 50px;
-    margin-left: 10%;
+    /*padding-top: 170px;*/
+    /*margin: 0 auto;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*display: flex;*/
+
+    flex-wrap: wrap;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 .history__photo{
-    margin-top: 50px;
-    margin-left: 10%;
+    margin: 0 auto;
+    text-align: center;
+
 }
 .history__line{
-    margin-top: 30px;
-    margin-left: 17%;
 }
 
 .history__ourhistory{
-    margin-left: 17%;
+    width: 367px;
+    height: 42px;
+    left: 736px;
+    top: 143px;
+    font-style: normal;
     font-weight: 600;
     font-size: 37px;
     line-height: 45px;
@@ -198,66 +214,17 @@ html{
 
 
 .history__story{
-    margin-top: 30px;
-    margin-left: 17%;
     width: 635px;
     height: 528px;
     left: 90px;
-    max-height: 528px;
+    top: 320px;
+    font-style: normal;
     font-weight: 400;
     font-size: 27px;
     line-height: 33px;
 }
 
 /* History style end */
-
-/* About style start */
-
-.about_bake{
-    width: 100%;
-    background: #F3E6D5;
-}
-
-.about_wrap{
-    padding-top: 170px;
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-.about__photo{
-    margin-top: 50px;
-    margin-left: 16%;
-}
-
-.about__text{
-    margin-top: 50px;
-    margin-left: 5%;
-}
-
-.about__storyheader{
-    font-weight: 600;
-    font-size: 37px;
-    line-height: 45px;
-}
-
-.about__line{
-    margin-top: 30px;
-}
-
-.about__story{
-    margin-top: 30px;
-    width: 500px;
-    height: 627px;
-    left: 736px;
-    top: 254px;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 33px;
-}
-
-/* About style end */
 
 /* Menu style start */
 
@@ -291,7 +258,6 @@ html{
 .menu__positions{
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .menu__positions_addition{
@@ -305,7 +271,7 @@ html{
 .menu__positions_column{
     flex: 1;
     margin-bottom: 60px;
-
+    margin-left: 10%;
 }
 
 .menu__positions_column_title{
@@ -327,114 +293,6 @@ html{
 .menu__positions_column_second:last-child{
     margin-top: 60px;
 }
-/*.menu__wrap{*/
-/*    padding-top: 170px;*/
-/*}*/
-/*.menu__title{*/
-/*    text-align: center;*/
-/*}*/
-
-
-/*.menu__title_name{*/
-/*    font-weight: 600;*/
-/*    font-size: 37px;*/
-/*    line-height: 45px;*/
-/*    letter-spacing: 0.04em;*/
-/*    color: #000000;*/
-/*}*/
-
-
-/*.menu__title_name:after{*/
-/*    content: "";*/
-/*    display: block;*/
-/*    width: 372px;*/
-/*    height: 3px;*/
-/*    margin: 42px auto;*/
-/*    background-color: black;*/
-/*}*/
-
-
-/*.menu__positions{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    flex-wrap: wrap;*/
-/*}*/
-
-/*.menu_coffee{*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-/*}*/
-
-/*.coffee_title{*/
-/*    text-align: center;*/
-/*    font-size: 32px;*/
-/*    line-height: 39px;*/
-/*    color: #000000;*/
-/*}*/
-
-
-/*.coffee{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
-
-/*.coffee_styles{*/
-/*    margin-left: 100px;*/
-/*    margin-top: 10px;*/
-/*    font-size: 27px;*/
-/*    line-height: 35px;*/
-/*    color: #000000;*/
-/*}*/
-
-/*.remark{*/
-/*    margin-top: 10px;*/
-/*    margin-left: 100px;*/
-/*}*/
-
-/*.remark__textt{*/
-/*    font-weight: 200;*/
-/*    font-size: 23px;*/
-/*    line-height: 28px;*/
-/*    color: rgba(0, 0, 0, 0.8);*/
-/*}*/
-/*.menu__autor_coffee{*/
-/*    text-align: center;*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-
-/*}*/
-/*.autor_coffee_title{*/
-/*    font-size: 32px;*/
-/*    line-height: 39px;*/
-/*    color: #000000;*/
-/*}*/
-
-/*.autor_coffee_menu{*/
-/*    justify-content: space-between;*/
-/*    display: flex;*/
-/*    text-align: left;*/
-/*}*/
-
-/*.otvars_coffee_title{*/
-/*    margin-top: 50px;*/
-/*    font-size: 32px;*/
-/*    line-height: 39px;*/
-/*    color: #000000;*/
-/*}*/
-
-/*.otvars__menu{*/
-/*    justify-content: space-between;*/
-/*    display: flex;*/
-/*    text-align: left;*/
-/*}*/
-
-/*.autor_coffee_styles{*/
-/*    margin-right: 100px;*/
-/*    margin-top: 15px;*/
-/*    font-size: 27px;*/
-/*    line-height: 35px;*/
-/*    color: #000000;*/
-/*}*/
 
 /* Menu style end */
 
