@@ -490,3 +490,127 @@ html{
     color: #555555;
 }
 /* Team style end */
+
+/* Instagram style start */
+.instagram__header{
+    width: 100%;
+    margin: 0 auto 60px;
+    max-width: 1021px;
+    text-align: center;
+}
+.instagram__title{
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.instagram_suptitle{
+    max-width: 1021px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.instagram__suptitle1{
+    font-size: 27px;
+    line-height: 33px;
+}
+
+.instagram__photos{
+    text-align: center;
+    max-width: 1440px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.box-1{
+    padding-bottom: 52px;
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: initial;
+}
+/* Instagram style end */
+
+/* Geo style start */
+
+.geo__header{
+    width: 100%;
+    margin: 0 auto 60px;
+    max-width: 1160px;
+    text-align: center;
+}
+.geo__title{
+    height: 45px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #000000;
+    padding-bottom: 100px;
+}
+
+.geo__title:after{
+    content: "";
+    display: block;
+    width: 600px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: black;
+}
+
+.geo_suptitle{
+    width: 1160px;
+    height: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.geo_items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 1440px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.geo_item{
+    width: 25%;
+    text-align: center;
+}
+
+.geo_items__img{
+    margin-bottom: 20px;
+}
+.geo_items__title{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.geo_items__text{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 345px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Geo style end */
