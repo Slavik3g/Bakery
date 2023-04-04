@@ -210,8 +210,16 @@ html{
     font-weight: 600;
     font-size: 37px;
     line-height: 45px;
+    padding-bottom: 70px;
 }
 
+.history__ourhistory:after{
+    content: "";
+    display: block;
+    width: 300px;
+    height: 3px;
+    background-color: black;
+}
 
 .history__story{
     width: 635px;
@@ -563,7 +571,7 @@ html{
 }
 
 .geo_suptitle{
-    width: 1160px;
+
     height: 70px;
     font-style: normal;
     font-weight: 400;
@@ -582,8 +590,8 @@ html{
     margin-right: 150px;
 }
 
-.geo_item{
-    width: 25%;
+.geo__item{
+    /*width: 25%;*/
     text-align: center;
 }
 
@@ -614,3 +622,114 @@ html{
 }
 
 /* Geo style end */
+
+/* Contactus style start */
+.wrapper{
+    padding-bottom: 50px;
+}
+.contactus__header{
+    width: 100%;
+    margin: 0 auto 60px;
+    max-width: 1021px;
+    text-align: center;
+}
+.contactus__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contactus_suptitle{
+    max-width: 1021px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contactus__suptitle1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.contactus__form{
+    max-width: 1440px;
+    padding-left: 150px ;
+    text-align: left;
+}
+.contactus__form_submit{
+    background: #070707;
+    border-radius: 50px;
+    width: 250px;
+    height: 80px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+}
+
+.contactus__form__field{
+    width: 800px;
+    height: 70px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 75px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    /* identical to box height */
+    color: black;
+}
+
+.contactus__form__field{
+    width: 800px;
+    height: 100px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 75px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    /* identical to box height */
+    color: black;
+}
+
+.contactus__form__field::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    /* identical to box height */
+    color: #979797;
+}
+/* Contactus style end */
+
+.fott{
+    padding-bottom: 10px;
+    background-color: #F3E6D5;
+    text-align: center;
+}
+.rights{
+    margin-right: auto;
+    margin-left: auto;
+    width: 301px;
+    height: 46px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+}

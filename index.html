@@ -11,7 +11,7 @@
     <div class="wrapper">
         <div class="header__wrapper">
             <div class="header__logo">
-                <a href="/" class="header__link">
+                <a href="#intro" class="header__link">
                     <img src="/img/svg/logo.svg" alt="">
                 </a>
             </div>
@@ -41,9 +41,8 @@
         </div>
     </div>
 </header>
-
 <main class="main">
-    <section class="intro">
+    <section class="intro" id="intro">
         <div class="wrapper">
             <div class="intro__title-photo">
                 <div class="intro__inner">
@@ -54,14 +53,13 @@
             </div>
         </div>
     </section>
-    <section class="history">
+    <section class="history" id="about">
         <div class="wrapper">
             <div class="hist_items">
                 <div class="history__text">
                     <h2 class="history__ourhistory">
                         О нашей кофейне
                     </h2>
-                    <img src="img/svg/Line.svg" alt="" class="history__line">
                     <p class="history__story">
                         История работы Bake House с кондитерскими изделиями длится уже более 15 лет.<br><br>
                         Сегодня практически невозможно найти магазин, где среди ассортимента кондитерских изделий нет
@@ -77,7 +75,7 @@
             </div>
         </div>
     </section>
-    <section class="menu">
+    <section class="menu" id = "menu">
         <div class="wrapper">
             <div class="menu__header">
                 <h2 class="menu__title">Меню</h2>
@@ -264,7 +262,7 @@
 
         </div>
     </section>
-    <section class="section">
+    <section class="section" id="reviews">
         <div class="wrapper">
             <div class="reviews__header">
                 <h2 class="reviews__title">Отзывы наших клиентов</h2>
@@ -365,7 +363,7 @@
         </div>
     </section>
     <section class="section">
-        <div class="wrapper">
+        <div class="wrapper" id="contacts">
             <div class="geo__header">
                 <h2 class="geo__title">Контакты и геолокация</h2>
                 <div class="geo_suptitle">
@@ -423,6 +421,39 @@
             </div>
         </div>
     </section>
+    <section class="section" id="contactus">
+        <div class="wrapper">
+            <div class="contactus__header">
+                <h2 class="contactus__title">Связаться с нами</h2>
+                <div class="contactus__suptitle">
+                    <h3 class="contactus__suptitle1">Задайте вопрос, отправьте ваши комментарии или предложения</h3>
+                </div>
+            </div>
+            <div class="contactusform">
+                <form class="contactus__form">
+                    <fieldset class="contactus__form__wrap">
+                        <p class="contactus__name">
+                            <input type="text" class="contactus__form__field" placeholder="Email">
+                        </p>
+                        <p class="contactus__name2">
+                            <input type="text" class="contactus__form__field" placeholder="Имя">
+                        </p>
+                        <p class="contactus__name3">
+                            <input type="text" class="contactus__form__field" placeholder="Ваш комментарий">
+                        </p>
+                        <button type="submit" class="contactus__form_submit">
+                            Отправить
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
 </main>
+<footer class="fott">
+    <div class="rights">
+        © All Right Reserved. Bake House. e-mail us: bakehouse@gmail.com
+    </div>
+</footer>
 </body>
 </html>
