@@ -5,39 +5,47 @@
     <title>Bake House</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
 </head>
 <body>
 <header class="header">
     <div class="wrapper">
         <div class="header__wrapper">
             <div class="header__logo">
-                <a href="#intro" class="header__link">
+                <a href="#intro" class="header__link1">
                     <img src="/img/svg/logo.svg" alt="">
                 </a>
             </div>
             <nav class="header__nav">
                 <ul class="header__list">
                     <li class="header__item">
-                        <a href="#about" class="header__link">О нас</a>
+                        <a href="#about" class="header__link js-scroll">О нас</a>
                     </li>
                     <li class="header__item">
-                        <a href="#menu" class="header__link">Меню</a>
+                        <a href="#menu" class="header__link js-scroll">Меню</a>
                     </li>
                     <li class="header__item">
-                        <a href="#sales" class="header__link">Акции</a>
+                        <a href="#reviews" class="header__link js-scroll">Отзывы</a>
                     </li>
                     <li class="header__item">
-                        <a href="#reviews" class="header__link">Отзывы</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="#contacts" class="header__link">Контакты</a>
+                        <a href="#contacts" class="header__link js-scroll">Контакты</a>
                     </li>
                 </ul>
+                <div class="header__nav-close">
+                    <span class="header__nav-close-line"></span>
+                    <span class="header__nav-close-line"></span>
+                </div>
             </nav>
             <div class="header__callback">
                 <p>+375 29 123 34 56</p>
                 <p>+375 44 879 23 23</p>
             </div>
+            <div class="header__burger burger">
+                <span class="burger_line burger__line_first"></span>
+                <span class="burger_line burger__line_second"></span>
+                <span class="burger_line burger__line_third"></span>
+            </div>
+
         </div>
     </div>
 </header>
@@ -455,5 +463,7 @@
         © All Right Reserved. Bake House. e-mail us: bakehouse@gmail.com
     </div>
 </footer>
+
+<script src="./js/main.js"></script>
 </body>
 </html>
