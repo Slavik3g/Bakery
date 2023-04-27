@@ -34,6 +34,10 @@ html{
     box-sizing: inherit;
 }
 
+.a-number{
+    text-decoration: none;
+    color: black;
+}
 .body{
     font-family: 'Inter';
     font-style: normal;
@@ -460,8 +464,8 @@ html{
 .persons__name{
     margin-bottom: 10px;
 
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 30px;
     line-height: 29px;
 }
 
@@ -712,26 +716,11 @@ html{
 
 .contactus__form__field{
     width: 800px;
-    height: 70px;
-    background-color: transparent;
-    border: 0;
-    border-bottom: 1px solid #000000;
-    margin-bottom: 75px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 29px;
-    line-height: 35px;
-    /* identical to box height */
-    color: black;
-}
-
-.contactus__form__field{
-    width: 800px;
     height: 100px;
     background-color: transparent;
     border: 0;
     border-bottom: 1px solid #000000;
-    margin-bottom: 75px;
+    margin-bottom: 40px;
     font-style: normal;
     font-weight: 400;
     font-size: 29px;
@@ -748,10 +737,29 @@ html{
     /* identical to box height */
     color: #979797;
 }
+
+.checkbox_cont{
+    transform:scale(1.5);
+    opacity:0.9;
+    cursor:pointer;
+    margin-bottom: 40px;
+}
+
+.tetet{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.send_mail{
+    text-decoration: none;
+    color: white;
+}
+
 /* Contactus style end */
 
 .fott{
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     background-color: #F3E6D5;
     text-align: center;
 }
@@ -770,3 +778,133 @@ html{
 
     color: #000000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+/* Primary */
+.modalPrimary .modalHeader, .modalPrimary .modalFooter, .modalPrimary .modalClose {
+    background-color: #337AB7 !important;
+    border: 1px solid #337AB7;
+    color: #fff;
+}
+/* Success */
+.modalSuccess .modalHeader, .modalSuccess .modalFooter, .modalSuccess .modalClose {
+    background-color: #5CB85C !important;
+    border: 1px solid #5CB85C;
+    color: #fff;
+}
+/* Success */
+.modalInfo .modalHeader, .modalInfo .modalFooter, .modalInfo .modalClose {
+    background-color: #5BC0DE !important;
+    border: 1px solid #5BC0DE;
+    color: #fff;
+}
+/* Warning */
+.modalWarning .modalHeader, .modalWarning .modalFooter, .modalWarning .modalClose {
+    background-color: #F0AD4E !important;
+    border: 1px solid #F0AD4E;
+    color: #fff;
+}
+/* Danger */
+.modalDanger .modalHeader, .modalDanger .modalFooter, .modalDanger .modalClose {
+    background-color: #D9534F !important;
+    border: 1px solid #D9534F;
+    color: #fff;
+}
+.modalContent {
+    position: relative;
+    margin: 30px auto;
+    padding: 0;
+    max-width: 600px;
+    border: 1px solid #888;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    opacity: 1;
+    transition: opacity 0.4s;
+    animation-name: modalopen;
+    animation-duration: 0.4s;
+}
+.modalHeader {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    padding: 13px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px 6px 0 0;
+}
+.modalBody {
+    background-color: #fff;
+    line-height: 22px;
+    padding: 15px;
+}
+.modalFooter {
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 6px 6px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.modalFooter div {
+    float: right;
+    margin: -7px -10px 0 0;
+}
+.modalClose {
+    color: #bbb;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+.modalClose:hover,.modalClose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+@keyframes modalopen {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+.btn{
+    margin-right: auto;
+    background: #070707;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+

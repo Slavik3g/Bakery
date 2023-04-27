@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptive.css">
+    <link type="image/x-icon" href="/img/favicon/muffin.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="/img/favicon/muffin.ico" rel="icon">
 </head>
 <body>
 <header class="header">
@@ -37,8 +39,8 @@
                 </div>
             </nav>
             <div class="header__callback">
-                <p>+375 29 123 34 56</p>
-                <p>+375 44 879 23 23</p>
+                <p><a class = "a-number" href="tel:+375291233456">+375 29 123 34 56</a></p>
+                <p><a class = "a-number" href="tel:+375448792323">+375 44 879 23 23</a></p>
             </div>
             <div class="header__burger burger">
                 <span class="burger_line burger__line_first"></span>
@@ -441,17 +443,42 @@
                 <form class="contactus__form">
                     <fieldset class="contactus__form__wrap">
                         <p class="contactus__name">
-                            <input type="text" class="contactus__form__field" placeholder="Email">
+                            <label>
+                                <input type="text" class="contactus__form__field" placeholder="Email">
+                            </label>
                         </p>
                         <p class="contactus__name2">
-                            <input type="text" class="contactus__form__field" placeholder="Имя">
+                            <label>
+                                <input type="text" class="contactus__form__field" placeholder="Имя">
+                            </label>
                         </p>
                         <p class="contactus__name3">
-                            <input type="text" class="contactus__form__field" placeholder="Ваш комментарий">
+                            <label>
+                                <textarea cols = "30" rows="20" class="contactus__form__field" placeholder="Ваш комментарий"></textarea>
+                            </label>
                         </p>
-                        <button type="submit" class="contactus__form_submit">
-                            Отправить
+                        <p>
+                            <label class = "tetet">
+                                <input class = "checkbox_cont" type="checkbox"> Подписаться на рассылку рекламных акций
+                            </label>
+                        </p>
+                        <button onclick="modal('myModal')" type="submit" class="contactus__form_submit">
+                            <a href="mailto:anna.mihno@gmail.com" class="send_mail">Отправить</a>
                         </button>
+                        <div id="myModal" class="modal">
+                            <div class="modalContent">
+                                <div class="modalHeader">
+                                    <span class="modalClose" data-close="true" title="Close">&times;</span>
+                                    Спасибо за обратную связь
+                                </div>
+                                <div class="modalBody">
+                                    <p>Ваше мнение имеет большое значение для нас, поскольку мы стремимся улучшать наши продукты и услуги, чтобы удовлетворить потребности наших клиентов. Мы всегда рады получить отзывы и предложения, которые помогут нам стать лучше. Спасибо, что делитесь своим мнением с нами!</p>
+                                </div>
+                                <div class="modalFooter">
+                                        <button type="button" class="btn" data-close="true">Close</button>
+                                </div>
+                            </div>
+                        </div>
                     </fieldset>
                 </form>
             </div>
@@ -465,5 +492,6 @@
 </footer>
 
 <script src="./js/main.js"></script>
+<script src="./js/modal.js"></script>
 </body>
 </html>
