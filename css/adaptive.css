@@ -138,6 +138,58 @@
     .modalContent {
         margin: 15px auto;
     }
+
+    .history__story{
+        width: 800px;
+        font-size: 33px;
+        line-height: 33px;
+    }
+
+    .history__photochemistry{
+        width: 800px;
+    }
+    .hist_items{
+        padding-top: 30px;
+    }
+    .whywe_items__text{
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .whywe{
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    .menu{
+        padding-top: 30px;
+    }
+    .persons__text{
+        font-size: 15px;
+        line-height: 33px;
+    }
+    .geo_items__title{
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .geo_items__text{
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .tetet{
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .rights{
+        width: 350px;
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .fott{
+        max-height: 500px;
+        padding-bottom: 60px;
+    }
+    .section{
+        padding-top: 30px;
+    }
 }
 /*@media only screen and (max-width: 992px){*/
 
